@@ -1,27 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> Should render the heading 1`] = `
+exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #06092b;
+  color: white;
+  padding: 3rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  width: 25rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.c4 {
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-n3tl0o-0 gACAYW"
+  class="c0"
 >
   <img
     alt="Imagem de uma átomo e React Avançado escrito ao lado"
-    class="styles__Logo-n3tl0o-1 kyidDX"
+    class="c1"
     src="/img/logo.svg"
   />
   <h1
-    class="styles__Title-n3tl0o-2 hxmMzC"
+    class="c2"
   >
     React Avançado
   </h1>
   <h2
-    class="styles__Description-n3tl0o-3 dZPoVN"
+    class="c3"
   >
     TypeScript, ReactJs, NextJs e Styled Components
   </h2>
   <img
     alt="Um desenvolvedor de frente para uma tela dom código"
-    class="styles__Illustration-n3tl0o-4 bTktIU"
+    class="c4"
     src="/img/hero-illustration.svg"
   />
 </main>
