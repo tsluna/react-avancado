@@ -1,4 +1,4 @@
 import { addDecorator } from "@storybook/react";
-import widthGlobalStyles from "./widthGlobalStyles";
+import withGlobalStyles from "./withGlobalStyles";
 
-addDecorator(widthGlobalStyles);
+addDecorator(withGlobalStyles);

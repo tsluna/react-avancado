@@ -1,7 +1,7 @@
 import { StoryFn } from '@storybook/addons';
 import GlobalStyles from '../src/styles/global';
 
-const widthGlobalStyles = (storyFn: StoryFn) => {
+const withGlobalStyles = (storyFn: StoryFn) => {
   return (
     <>
     <GlobalStyles />
@@ -10,4 +10,4 @@ const widthGlobalStyles = (storyFn: StoryFn) => {
   )
 }
 
-export default widthGlobalStyles;
+export default withGlobalStyles;
