@@ -16,6 +16,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./src"]
-  /* "extends": "./paths.json" */
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
